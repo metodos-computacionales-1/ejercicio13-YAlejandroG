@@ -1,6 +1,6 @@
 #include <iostream>
 
-int getMaxInt(int a,int b){
+int getMax(int a,int b){
     if(a>b){
         return a;
     }
@@ -9,7 +9,7 @@ int getMaxInt(int a,int b){
     }
 }
 
-double getMaxDouble(double a,double b){
+double getMax(double a,double b){
     if(a>b){
         return a;
     }
@@ -25,7 +25,7 @@ int main(){
     std::cin>>a;
     std::cout<<"Ingresar segundo entero:"<<std::endl;
     std::cin>>b;
-    int maxint = getMaxInt(a,b);
+    int maxint = getMax(a,b);
     std::cout<<"Maximo entre "<<a<<" y "<<b<<": "<<maxint<<std::endl;
     
     double c,d;
@@ -33,7 +33,7 @@ int main(){
     std::cin>>c;
     std::cout<<"Ingresar segundo double:"<<std::endl;
     std::cin>>d;
-    double maxDouble = getMaxDouble(c,d);
+    double maxDouble = getMax(c,d);
     std::cout<<"Maximo entre "<<c<<" y "<<d<<": "<<maxDouble<<std::endl;
     
     return 0;
