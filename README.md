@@ -1,0 +1,1 @@
+Exercise 2: Al agregar la palabra const el archivo deja de compilar, esto es porque este prefijo vuelve a la variable a una constante, por lo cual no podria modificarse, lo que trata de hacerse en la linea "a=r;".
